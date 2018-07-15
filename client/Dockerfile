@@ -18,4 +18,4 @@ RUN chmod +x /proxy/proxy.crt
 RUN chmod +x /proxy/client.sh
 RUN chmod +x /proxy/init.sh
 
-CMD ["/init.sh"]
+CMD ["./init.sh"]
