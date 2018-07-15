@@ -21,4 +21,4 @@ RUN chmod +x /proxy/bridge.sh
 RUN chmod +x /proxy/server.sh
 RUN chmod +x /proxy/init.sh
 
-CMD ["/init.sh"]
+CMD ["./init.sh"]
